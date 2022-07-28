@@ -59,14 +59,17 @@ h1.title {
     }
 }
 
-div.post {
-    margin-bottom: 40px;
+h2,h3,h4,h5,h6 {
+    font-weight: lighter;
 }
 
 h2.posttitle {
-    font-weight: lighter;
     padding: 0;
     margin: 0;
+}
+
+div.post {
+    margin-bottom: 40px;
 }
 
 a, a:visited, a:active {
