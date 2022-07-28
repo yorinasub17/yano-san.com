@@ -2,6 +2,8 @@
 title: "Yoriyasu (Yori) Yano"
 ---
 
+<p class="worktitle">Currently a Principal Software Engineer at <a href="https://gruntwork.io">Gruntwork</a></p>
+
 I am an experienced (10+ years) software engineer passionate about building tools to make developers’ lives easier.
 Prior to joining Gruntwork, I was a founding team member at Captricity, a company building a secure digital
 automation solution for enterprises operating in highly regulated industries. During my time there, I built out

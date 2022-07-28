@@ -128,34 +128,9 @@ footer {
     border-top: 1px solid $base1;
     margin-top: 50px;
 }
-
-div.workskills {
-    margin-top: 50px;
-
-    p {
-        margin: 0;
-        padding-bottom: 5px;
-    }
-    span.techcategory {
-        font-weight: bold;
-    }
-}
-
-div.workexperience {
-    margin-top: 50px;
-
-    h4.workcompany {
-        margin: 0;
-    }
-    p.worktitle {
-        color: $green;
-        font-style: italic;
-        font-size: 0.9em;
-        margin: 0;
-    }
-    ul.workdetails {
-        li {
-            color: $base0;
-        }
-    }
+p.worktitle {
+    color: $green;
+    font-style: italic;
+    font-size: 0.9em;
+    margin: 0;
 }
