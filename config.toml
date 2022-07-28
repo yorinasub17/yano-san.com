@@ -2,7 +2,7 @@ baseURL = 'https://yano-san.com/'
 languageCode = 'en-us'
 title = 'yorinasub17'
 theme = 'yanosan-solarized-theme-hugo'
-paginate = 4
+paginate = 8
 
 [params]
   github = 'https://github.com/yorinasub17'
