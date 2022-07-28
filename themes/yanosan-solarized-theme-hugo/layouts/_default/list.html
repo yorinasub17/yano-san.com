@@ -1,5 +1,6 @@
 {{ define "main" }}
     {{ range .Paginator.Pages }}
+    {{ if not (isset .Params "ignore") }}
     <div class="post">
         <!-- If external link exists in post matter -->
         {{ if isset .Params "affiliatelink" }}
@@ -19,6 +20,7 @@
 
         <p class="postdate">{{ .Date.Format "02. January 2006" }}</p>
     </div>
+    {{ end }}
     {{ end }}
 
     {{ if or .Paginator.HasPrev .Paginator.HasNext }}

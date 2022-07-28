@@ -1,5 +1,6 @@
 ---
 title: "Yoriyasu (Yori) Yano"
+ignore: true
 ---
 
 <p class="worktitle">Currently a Principal Software Engineer at <a href="https://gruntwork.io">Gruntwork</a></p>
