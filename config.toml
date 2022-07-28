@@ -1,0 +1,9 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'yorinasub17'
+theme = 'yanosan-solarized-theme-hugo'
+paginate = 4
+
+[params]
+  github = 'https://github.com/yorinasub17'
+  linkedin = 'https://www.linkedin.com/pub/yoriyasu-yano/1b/72/903/'

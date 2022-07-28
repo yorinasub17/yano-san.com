@@ -1,0 +1,33 @@
+{{ define "main" }}
+    {{ range .Paginator.Pages }}
+    <div class="post">
+        <!-- If external link exists in post matter -->
+        {{ if isset .Params "affiliatelink" }}
+        <h2 class="posttitle"><a href="{{ .Params.affiliatelink }}" target="_blank">{{ .Title }} ({{ .Params.affiliatename }})</a></h2>
+        <div class="post-content">
+            <p>{{ .Params.affiliatesummary }}</p>
+        </div>
+        <!-- Else show internal post page -->
+        {{ else }}
+        <h2 class="posttitle"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+
+        <div class="post-content">
+            <p>{{ .Params.summary }}</p>
+        </div>
+        {{ end }}
+
+        <p class="postdate">{{ .Date.Format "02. January 2006" }}</p>
+    </div>
+    {{ end }}
+
+    {{ if or .Paginator.HasPrev .Paginator.HasNext }}
+    <nav class="paginator">
+        {{ if .Paginator.HasPrev }}
+        <a href="{{ .Paginator.Prev.URL }}">&lt; newer</a>
+        {{ end }}
+        <span>{{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
+        {{ if .Paginator.HasNext }}
+        <a href="{{ .Paginator.Next.URL }}">older &gt;</a>
+        {{ end }}
+    {{ end }}
+{{ end }}

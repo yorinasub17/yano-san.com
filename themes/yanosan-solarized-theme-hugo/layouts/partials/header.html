@@ -1,0 +1,17 @@
+<header>
+    <h1 class="title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+
+    <ul class="social">
+        {{ if .Param "github" }}
+        <li>
+            <a href="{{ .Param "github" }}">github</a>
+        </li>
+        {{ end }}
+
+        {{ if .Param "linkedin" }}
+        <li>
+            <a href="{{ .Param "linkedin" }}">linkedin</a>
+        </li>
+        {{ end }}
+    </ul>
+</header>

@@ -1,0 +1,121 @@
+// The solarized palette
+
+$base03:  #002b36;
+$base02:  #073642;
+$base01:  #586e75;
+$base00:  #657b83;
+$base0:   #839496;
+$base1:   #93a1a1;
+$base2:   #eee8d5;
+$base3:   #fdf6e3;
+
+$yellow:  #b58900;
+$orange:  #cb4b16;
+$red:     #dc322f;
+$magenta: #d33682;
+$violet:  #6c71c4;
+$blue:    #268bd2;
+$cyan:    #2aa198;
+$green:   #859900;
+
+// TODO: add toggling by dark or light
+$fg:      $base00;
+$bg:      $base3;
+$hl:      $base2;
+$emph:    $base01;
+$comment: $base1;
+
+header {
+    margin-bottom: 50px;
+}
+
+body {
+    background: $bg;
+
+    max-width: 800px;
+    margin: auto;
+
+    font-family: 'Inconsolata';
+    font: 16px/1.231 sans-serif;
+    *font-size:small;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: $orange;
+
+    a, a:visited, a:active {
+      color: $orange;
+    }
+
+    a:hover {
+      color: $orange;
+    }
+}
+
+h1.title {
+    a:hover {
+      background-color: $bg;
+    }
+}
+
+div.post {
+    margin-bottom: 40px;
+}
+
+h2.posttitle {
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+}
+
+a, a:visited, a:active {
+    color: $cyan;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+a:hover {
+    color: $cyan;
+    background-color: $base2;
+}
+
+ul.social {
+    padding: 0;
+
+    li {
+        display: inline;
+    }
+
+    a, a:visited, a:active {
+        margin-right: 2px;
+        padding: 3px;
+    }
+}
+
+p {
+    color: $base0;
+    font-weight: lighter;
+}
+
+p.postdate {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+nav.paginator {
+    display: flex;
+    justify-content: center;
+
+    span {
+        color: $base0;
+        font-weight: lighter;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+footer {
+    font-size: 0.7em;
+    border-top: 1px solid $base1;
+    margin-top: 50px;
+}
