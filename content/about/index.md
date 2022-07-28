@@ -16,5 +16,5 @@ his time there, he built out Captricity’s core digitization platform from a re
 specialized in Site Reliability Engineering and successfully led the team to materialize a 10x improvement in the
 throughput of the digitization platform.
 
-In my free time, he likes to tinker with my home datacenter (comprised of a mix of SBCs) and scout for new technologies
-to learn (currently CUDA and GPGPU programming).
+In his free time, he likes to tinker with his home datacenter (comprised of a mix of SBCs and traditional desktops) and
+scout for new technologies to learn (currently [SLSA](https://slsa.dev/) and supply chain security).
