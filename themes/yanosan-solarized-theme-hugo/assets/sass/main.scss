@@ -97,8 +97,7 @@ ul.social {
 }
 
 p {
-    color: $base0;
-    font-weight: lighter;
+    color: $emph;
 }
 
 p.postdate {
@@ -108,6 +107,13 @@ p.postdate {
 
 p.affiliatename {
     font-style: italic;
+    margin: 0;
+}
+
+p.worktitle {
+    color: $magenta;
+    font-style: italic;
+    font-size: 0.9em;
     margin: 0;
 }
 
@@ -127,10 +133,4 @@ footer {
     font-size: 0.7em;
     border-top: 1px solid $base1;
     margin-top: 50px;
-}
-p.worktitle {
-    color: $green;
-    font-style: italic;
-    font-size: 0.9em;
-    margin: 0;
 }
