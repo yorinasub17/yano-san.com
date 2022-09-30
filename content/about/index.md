@@ -6,8 +6,8 @@ ignore: true
 <p class="worktitle">Staff level Startup Engineer with 10+ years of experience (formerly at <a href="https://gruntwork.io">Gruntwork</a>)</p>
 
 Yori is an experienced software engineer passionate about building tools to make developers’ lives easier. Most
-recently, Yori was an early employee (employee #7) of Gruntwork, he led many key initiatives in the company including
-the [Reference Architecture](https://gruntwork.io/reference-architecture/), [Gruntwork
+recently, Yori was an early employee (employee #7) at Gruntwork where he led many key initiatives in the company
+including the [Reference Architecture](https://gruntwork.io/reference-architecture/), [Gruntwork
 Pipelines](https://gruntwork.io/pipelines/), EKS and Kubernetes modules, and numerous enhancements to
 [Terragrunt](https://terragrunt.gruntwork.io).
 
