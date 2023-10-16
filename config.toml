@@ -6,7 +6,7 @@ paginate = 8
 
 [params]
   github = 'https://github.com/yorinasub17'
-  linkedin = 'https://www.linkedin.com/pub/yoriyasu-yano/1b/72/903/'
+  linkedin = 'https://www.linkedin.com/in/yoriyasu-yori-yano-9030721b/'
 
 [markup.goldmark.renderer]
   unsafe = true
