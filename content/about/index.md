@@ -3,12 +3,14 @@ title: "Yoriyasu (Yori) Yano"
 ignore: true
 ---
 
-<p class="worktitle">Co-Founder at <a href="https://illumitacit.com">IllumiTacit</a> (Staff level Startup Engineer with 10+ years of experience)</p>
+<p class="worktitle">Founder at <a href="https://illumitacit.com">IllumiTacit</a> and <a href="https://fensak.io">Fensak</a> (Staff level Startup Engineer with 10+ years of experience)</p>
 
 Yori is an experienced software engineer passionate about building tools to make developers’ lives easier. Currently
 Yori is working on [IllumiTacit](https://illumitacit.com), a service that helps users reuse and share LLM prompts across
 a wide range of apps such as [Microsoft Office 365](https://appsource.microsoft.com/en-us/product/office/WA200005621)
-and [Google Chrome](https://chrome.google.com/webstore/detail/illumitacit/cgpanmehaobefgofidfdfbjnkmogjjab).
+and [Google Chrome](https://chrome.google.com/webstore/detail/illumitacit/cgpanmehaobefgofidfdfbjnkmogjjab). He is also
+working on [Fensak](https://fensak.io), a service that allows using branch protection in GitOps workflows without
+compromise.
 
 Yori was previously an early employee (employee #7) at Gruntwork where he led many key initiatives in the company
 including the [Reference Architecture](https://gruntwork.io/reference-architecture/), [Gruntwork
