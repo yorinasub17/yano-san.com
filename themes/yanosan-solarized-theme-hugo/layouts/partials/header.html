@@ -7,14 +7,19 @@
 
         {{ if .Param "github" }}
         <li>
-            <a href="{{ .Param "github" }}">github</a>
+          <a href="{{ .Param "github" }}">github</a>
         </li>
         {{ end }}
 
         {{ if .Param "linkedin" }}
         <li>
-            <a href="{{ .Param "linkedin" }}">linkedin</a>
+          <a href="{{ .Param "linkedin" }}">linkedin</a>
         </li>
         {{ end }}
+
+        {{ if .Param "wellfound" }}
+        <li>
+          <a href="{{ .Param "wellfound" }}">wellfound</a>
+        </li>
     </ul>
 </header>
