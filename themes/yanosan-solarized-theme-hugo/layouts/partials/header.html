@@ -17,9 +17,16 @@
         </li>
         {{ end }}
 
+        {{ if .Param "mastodon" }}
+        <li>
+          <a rel="me" href="{{ .Param "mastodon" }}">mastodon</a>
+        </li>
+        {{ end }}
+
         {{ if .Param "wellfound" }}
         <li>
           <a href="{{ .Param "wellfound" }}">wellfound</a>
         </li>
+        {{ end }}
     </ul>
 </header>
