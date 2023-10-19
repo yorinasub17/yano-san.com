@@ -7,6 +7,7 @@ paginate = 8
 [params]
   github = 'https://github.com/yorinasub17'
   linkedin = 'https://www.linkedin.com/in/yoriyasu-yori-yano-9030721b/'
+  mastodon = 'https://mastodon.social/@yorinasub17'
   wellfound = 'https://wellfound.com/u/yoriyasu-yano'
 
 [markup.goldmark.renderer]
